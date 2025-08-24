@@ -63,27 +63,23 @@
 </style>
 </head>
 <body>
-<div id = "header">
-	<div id="pr">
+	<div id = "header">
+		<div id="pr">
+		</div>
 	</div>
-</div>
-<div id="main" >
-	<div id="top">
-		<p> Home </p>
+	<div id="main">
+		<div id="top">
+			<p> Home </p>
+		</div>
+		<div>
+			<s:form action="HomeAction">
+				<s:submit value="商品購入"/>
+			</s:form>
+		</div>
 	</div>
-	<div>
-		<s:form action="HomeAction" >
-			<s:submit value="商品購入"/>
-		</s:form>
+	<div id="footer">
+		<div id="pr">
+		</div>
 	</div>
-	<form action="HomeAction" method="post">
-    <input type="submit" value="商品購入"/>
-</form>
-</div>
-
-<div id="footer">
-<div id="pr">
-</div>
-</div>
 </body>
 </html>

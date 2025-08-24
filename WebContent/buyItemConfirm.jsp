@@ -68,7 +68,7 @@
 			<p>BuyItemConfirm</p>
 		</div>
 		<div>
-			<s:formaction="BuyItemConfirmAction">
+			<s:form action="BuyItemConfirmAction">
 				<table>
 					<tr>
 						<td>商品名</td>

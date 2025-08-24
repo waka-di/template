@@ -78,10 +78,10 @@
 							<td><s:property value="session.buyItem_name"/></td>
 					</tr>
 					<tr>
-						<td>値 段</td>
+						<td>値段</td>
 						<td>
 							<s:property value="session.total_price"/>
-							<span> 円 </span>
+							<span> 円</span>
 						</td>
 					</tr>
 					<tr>
@@ -102,7 +102,7 @@
 				</s:form>
 			</s:if>
 			<s:if test="session.message != null">
-				<h3><s:property value ="session.message"/></h 3>
+				<h3><s:property value ="session.message"/></h3>
 			</s:if>
 			<div>
 				<br>
